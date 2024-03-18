@@ -1,16 +1,17 @@
-# desktop
+# user-app
 
-A new Flutter project.
-
+This project is a user management application developed using Flutter for the frontend and ASP.NET Core for the backend API. It allows users to create, update, view, and delete user records. The Flutter app provides a welcoming screen with a background image and a "Create a User" button that leads to the main user management page. On the main page, users can see a list of existing users, edit their details, and delete them if needed. The backend API handles data validation, ensuring that inputs like name, email, phone number, and team name adhere to specific criteria. PostgreSQL is used as the database to store user information securely.
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# *Technologies Used*
+## Frontend
+- Flutter 
+## Backend
+- ASP.NET Core
+- PostgreSQL
+## Networking
+- Dio
+## Database Connectivity
+- Npgsql
+## API Documentation
+- Swagger/OpenAPI 
